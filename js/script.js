@@ -220,12 +220,13 @@ function open(e) {
     let galeryBtn = document.querySelector('#galeryBtn');
     galeryBtn.addEventListener('click',function() {
         new Images(
-            "img/7g.webp",
+            "img/12g.webp",
             "fishing",
             '.gallery .image-container'
         ).render();
+        
         new Images(
-            "img/8g.webp",
+            "img/9g.webp",
             "fishing",
             '.gallery .image-container'
         ).render();
@@ -235,12 +236,12 @@ function open(e) {
             '.gallery .image-container'
         ).render();
         new Images(
-            "img/10g.webp",
+            "img/9g.webp",
             "fishing",
             '.gallery .image-container'
         ).render();
         new Images(
-            "img/11g.webp",
+            "img/9g.webp",
             "fishing",
             '.gallery .image-container'
         ).render();
